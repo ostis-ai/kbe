@@ -1,3 +1,10 @@
+# Troubleshooting
+If you can't open kbe or kbe can't open file, install qt5 libs. For apt packet manager you can use the following commands:
+```sh
+sudo apt-get install libqt5xml5
+sudo apt-get install libqt5concurrent5
+```
+
 Please read readme.html in the docs folder.
 
 *This repository continues the development of [this kbe](https://github.com/ostis-dev/kbe) from branches:*
