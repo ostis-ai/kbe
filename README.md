@@ -1,3 +1,12 @@
+# Troubleshooting
+
+If you are experiencing issues opening KBE or files within KBE, you may need to install additional Qt5 libraries. For systems using the APT package manager, please run the following commands:
+
+```sh
+sudo apt-get install libqt5xml5
+sudo apt-get install libqt5concurrent5
+```
+
 Please read readme.html in the docs folder.
 
 *This repository continues the development of [this kbe](https://github.com/ostis-dev/kbe) from branches:*
