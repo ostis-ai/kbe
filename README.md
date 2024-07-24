@@ -1,5 +1,7 @@
 # Troubleshooting
-If you can't open kbe or kbe can't open file, install qt5 libs. For apt packet manager you can use the following commands:
+
+If you are experiencing issues opening KBE or files within KBE, you may need to install additional Qt5 libraries. For systems using the APT package manager, please run the following commands:
+
 ```sh
 sudo apt-get install libqt5xml5
 sudo apt-get install libqt5concurrent5
